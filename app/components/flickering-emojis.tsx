@@ -76,8 +76,8 @@ export default function FlickeringEmojis({
 					x: Math.random() * width,
 					y: Math.random() * height,
 					emoji: emojis[Math.floor(Math.random() * emojis.length)],
-					opacity: Math.random() * 0.2 + 0.1,
-					targetOpacity: Math.random() * 0.3 + 0.1,
+					opacity: Math.random() * 0.1 + 0.05,
+					targetOpacity: Math.random() * 0.15 + 0.05,
 					size: Math.random() * (maxSize - minSize) + minSize,
 					delay: Math.random() * 2000,
 					flickerSpeed: 0.0005 + Math.random() * 0.001, // Much slower flicker
@@ -146,7 +146,7 @@ export default function FlickeringEmojis({
 					// Occasionally change target opacity for more variation
 					let targetOpacity = emoji.targetOpacity;
 					if (Math.random() < 0.005) {
-						targetOpacity = Math.random() * 0.3 + 0.1;
+						targetOpacity = Math.random() * 0.15 + 0.05;
 					}
 					
 					// Create flickering effect with sine wave for smooth transitions
@@ -155,8 +155,8 @@ export default function FlickeringEmojis({
 					
 					// Smoothly transition to target opacity with flicker
 					const newOpacity = Math.max(
-						0.05,
-						Math.min(0.5, baseOpacity + flicker)
+						0.03,
+						Math.min(0.25, baseOpacity + flicker)
 					);
 
 					return {

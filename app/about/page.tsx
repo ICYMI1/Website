@@ -1,5 +1,19 @@
 import React from "react";
+import { Metadata } from "next";
 import { Navigation } from "../components/nav";
+
+export const metadata: Metadata = {
+  title: "About Us | IncaseYouMissedit",
+  description: "Learn about IncaseYouMissedit - your ultimate source for discovering the beauty, culture, and hidden gems that South Africa has to offer. Authentic lifestyle content, honest reviews, and real experiences from Mzansi.",
+  openGraph: {
+    title: "About Us | IncaseYouMissedit",
+    description: "Learn about IncaseYouMissedit - your ultimate source for discovering the beauty, culture, and hidden gems that South Africa has to offer.",
+    url: "https://incaseyoumissedit.co.za/about",
+  },
+  alternates: {
+    canonical: "https://incaseyoumissedit.co.za/about",
+  },
+};
 
 export default function AboutPage() {
   return (
@@ -11,7 +25,7 @@ export default function AboutPage() {
             About
           </h2>
           <p className="mt-4 text-zinc-600">
-            Learn more about #IncaseYouMissedIt and our mission.
+            Learn more about #IncaseYouMissedit and our mission.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-200" />
@@ -21,7 +35,7 @@ export default function AboutPage() {
           {/* Introduction Section */}
           <section className="prose prose-zinc">
             <p className="text-zinc-600 leading-8">
-              Welcome to #IncaseYouMissedIt – your ultimate source for discovering the beauty, culture, and hidden gems that South Africa has to offer.
+              Welcome to #IncaseYouMissedit – your ultimate source for discovering the beauty, culture, and hidden gems that South Africa has to offer.
             </p>
             <p className="text-zinc-600 leading-8">
               We explore everything from stylish restaurants and cozy chill spots to breathtaking beaches and unforgettable hangout locations. Our mission is simple: to highlight the best experiences around Mzansi with honesty, creativity, and a touch of flair. We don't rely on filters or overly polished narratives — just genuine insights, real opinions, and content that tells the full story.

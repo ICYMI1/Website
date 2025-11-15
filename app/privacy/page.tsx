@@ -1,5 +1,23 @@
 import React from "react";
+import { Metadata } from "next";
 import { Navigation } from "../components/nav";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | IncaseYouMissedit",
+  description: "Privacy Policy for IncaseYouMissedit. Learn how we handle your information, blockchain transactions, embedded social media content, and token ecosystem interactions.",
+  openGraph: {
+    title: "Privacy Policy | IncaseYouMissedit",
+    description: "Privacy Policy for IncaseYouMissedit. Learn how we handle your information and data.",
+    url: "https://incaseyoumissedit.co.za/privacy",
+  },
+  alternates: {
+    canonical: "https://incaseyoumissedit.co.za/privacy",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function PrivacyPage() {
   return (
@@ -21,7 +39,7 @@ export default function PrivacyPage() {
           {/* Introduction */}
           <section className="prose prose-zinc">
             <p className="text-zinc-600 leading-8">
-              At InCaseYouMissedIt, your privacy is important to us. This Privacy Policy explains how we handle information when you interact with our website, token ecosystem, and any content we share. This includes embedded social media content, community features, and blockchain-related services linked to the InCaseYouMissedIt Token.
+              At IncaseYouMissedit, your privacy is important to us. This Privacy Policy explains how we handle information when you interact with our website, token ecosystem, and any content we share. This includes embedded social media content, community features, and blockchain-related services linked to the IncaseYouMissedit Token.
             </p>
             <p className="text-zinc-600 leading-8">
               By using our platform, you acknowledge and agree to the practices described in this Privacy Policy.
@@ -51,7 +69,7 @@ export default function PrivacyPage() {
                   1.2 Blockchain-Related Information
                 </h3>
                 <p className="text-zinc-600 leading-8">
-                  When interacting with the InCaseYouMissedIt Token, you may use blockchain wallets (e.g., MetaMask, OKX, Trust Wallet).
+                  When interacting with the IncaseYouMissedit Token, you may use blockchain wallets (e.g., MetaMask, OKX, Trust Wallet).
                 </p>
                 <ul className="text-zinc-600 leading-8 mt-4 space-y-2 list-disc list-inside">
                   <li>We do not collect or store wallet addresses or transaction details.</li>
@@ -175,7 +193,7 @@ export default function PrivacyPage() {
                   Blockchain networks are inherently public.
                 </p>
                 <p className="text-zinc-600 leading-8 mt-4">
-                  Interactions with the InCaseYouMissedIt Token — such as:
+                  Interactions with the IncaseYouMissedit Token — such as:
                 </p>
                 <ul className="text-zinc-600 leading-8 mt-4 space-y-2 list-disc list-inside">
                   <li>staking</li>
@@ -207,7 +225,7 @@ export default function PrivacyPage() {
                   <li>security-related data</li>
                 </ul>
                 <p className="text-zinc-600 leading-8 mt-4">
-                  InCaseYouMissedIt has no control over their data practices and recommends reviewing their privacy policies.
+                  IncaseYouMissedit has no control over their data practices and recommends reviewing their privacy policies.
                 </p>
               </div>
             </div>
@@ -271,7 +289,7 @@ export default function PrivacyPage() {
               7. Children's Privacy
             </h2>
             <p className="text-zinc-600 leading-8 mt-6">
-              InCaseYouMissedIt does not target or knowingly collect information from children under the age of 13.
+              IncaseYouMissedit does not target or knowingly collect information from children under the age of 13.
             </p>
             <p className="text-zinc-600 leading-8 mt-4">
               Embedded platforms may enforce their own age restrictions.

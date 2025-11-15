@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
             Privacy Policy
           </Link>
           <span className="hidden sm:inline">•</span>
-          <span>© InCaseYouMissedIt – All Rights Reserved</span>
+          <span>© IncaseYouMissedit – All Rights Reserved</span>
         </div>
       </div>
     </footer>

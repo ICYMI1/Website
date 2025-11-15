@@ -87,7 +87,7 @@ const getTokenomicsData = async () => {
         "community incentives": 10,
         "papo wealth capital reserves": 15,
       },
-      utility: "The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
+      utility: "The IncaseYouMissedit Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
       useCases: [
         "Governance Voting - Community members can vote on future platform updates, token features, and development priorities",
         "Staking Rewards - Users earn passive rewards for supporting the ecosystem through staking mechanisms",
@@ -109,7 +109,7 @@ const getTokenomicsData = async () => {
         "community incentives": 10,
         "papo wealth capital reserves": 15,
       },
-      utility: "The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
+      utility: "The IncaseYouMissedit Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
       useCases: [
         "Governance Voting - Community members can vote on future platform updates, token features, and development priorities",
         "Staking Rewards - Users earn passive rewards for supporting the ecosystem through staking mechanisms",

@@ -8,25 +8,51 @@ import FlickeringEmojis from "./components/flickering-emojis";
 import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://incaseyoumissedit.co.za"),
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "IncaseYouMissedit | Discover South Africa's Best Lifestyle Experiences",
+    template: "%s | IncaseYouMissedit",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Your source for content you might have missed. Discover the best lifestyle experiences across South Africa - restaurants, beaches, hangout spots, and hidden gems. Authentic reviews and real experiences from Mzansi.",
+  keywords: [
+    "South Africa lifestyle",
+    "South Africa restaurants",
+    "Cape Town restaurants",
+    "Johannesburg restaurants",
+    "South Africa beaches",
+    "Mzansi lifestyle",
+    "South Africa travel",
+    "lifestyle reviews",
+    "hidden gems South Africa",
+    "IncaseYouMissedit",
+    "South Africa hangout spots",
+    "authentic reviews South Africa",
+    "lifestyle experiences",
+    "South Africa culture",
+  ],
+  authors: [{ name: "IncaseYouMissedit" }],
+  creator: "IncaseYouMissedit",
+  publisher: "IncaseYouMissedit",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "chronark.com",
+    title: "IncaseYouMissedit | Discover South Africa's Best Lifestyle Experiences",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Your source for content you might have missed. Discover the best lifestyle experiences across South Africa - restaurants, beaches, hangout spots, and hidden gems.",
+    url: "https://incaseyoumissedit.co.za",
+    siteName: "IncaseYouMissedit",
     images: [
       {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
+        url: "https://incaseyoumissedit.co.za/og.png",
+        width: 1200,
+        height: 630,
+        alt: "IncaseYouMissedit - Discover South Africa's Best Lifestyle Experiences",
       },
     ],
-    locale: "en-US",
+    locale: "en_ZA",
     type: "website",
   },
   robots: {
@@ -41,11 +67,24 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
     card: "summary_large_image",
+    title: "IncaseYouMissedit | Discover South Africa's Best Lifestyle Experiences",
+    description: "Your source for content you might have missed. Discover the best lifestyle experiences across South Africa.",
+    creator: "@icymi_1",
+    site: "@icymi_1",
+    images: ["https://incaseyoumissedit.co.za/og.png"],
+  },
+  alternates: {
+    canonical: "https://incaseyoumissedit.co.za",
   },
   icons: {
     shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
+  verification: {
+    // Add verification codes here if you have them
+    // google: "your-google-verification-code",
+    // yandex: "your-yandex-verification-code",
   },
 };
 const inter = Inter({
@@ -64,7 +103,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en-ZA" className={[inter.variable, calSans.variable].join(" ")}>
       <body
         className={`bg-white ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}

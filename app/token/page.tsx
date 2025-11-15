@@ -30,7 +30,7 @@ const defaultTokenomics: TokenomicsData = {
     community: 50,
     reserves: 30,
   },
-  utility: "The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
+  utility: "The IncaseYouMissedit Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
   useCases: [
     "Governance Voting - Community members can vote on future platform updates, token features, and development priorities",
     "Staking Rewards - Users earn passive rewards for supporting the ecosystem through staking mechanisms",
@@ -80,7 +80,7 @@ export default function TokenPage() {
         {/* Header Section */}
         <div className="max-w-2xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-transparent duration-1000 bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-900 bg-clip-text font-display">
-            #InCaseYouMissedIt Token
+            #IncaseYouMissedit Token
           </h1>
           <p className="mt-4 text-zinc-600">
             The digital backbone of the platform's growing ecosystem.
@@ -96,7 +96,7 @@ export default function TokenPage() {
               Overview
             </h2>
             <p className="text-zinc-600 leading-8">
-              The InCaseYouMissedIt Token serves as the digital backbone of the platform's growing ecosystem. Built to reinforce the long-term sustainability of InCaseYouMissedIt, the token functions as both a value anchor and an economic engine that supports future expansion. It represents more than just a cryptocurrency — it's a domain-linked asset that reflects the strength, reach, and real-world impact of the InCaseYouMissedIt brand.
+              The IncaseYouMissedit Token serves as the digital backbone of the platform's growing ecosystem. Built to reinforce the long-term sustainability of IncaseYouMissedit, the token functions as both a value anchor and an economic engine that supports future expansion. It represents more than just a cryptocurrency — it's a domain-linked asset that reflects the strength, reach, and real-world impact of the IncaseYouMissedit brand.
             </p>
             <p className="text-zinc-600 leading-8 mt-4">
               As the platform continues to uncover hidden gems, showcase lifestyle experiences, and build a community of explorers across South Africa, the token ensures that this growth is supported by a robust, transparent, and decentralized economic model.
@@ -118,7 +118,7 @@ export default function TokenPage() {
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Domain-Linked Value</h3>
                 <p className="text-zinc-600 leading-7">
-                  The token represents the intrinsic value of the InCaseYouMissedIt domain, transforming it into a digital asset that mirrors the platform's success and ongoing utility.
+                  The token represents the intrinsic value of the IncaseYouMissedit domain, transforming it into a digital asset that mirrors the platform's success and ongoing utility.
                 </p>
               </div>
               
@@ -146,7 +146,7 @@ export default function TokenPage() {
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Sustainability and Growth</h3>
                 <p className="text-zinc-600 leading-7">
-                  Token-based funding supports marketing, platform innovation, and broader expansion initiatives, allowing InCaseYouMissedIt to remain agile, independent, and future-ready.
+                  Token-based funding supports marketing, platform innovation, and broader expansion initiatives, allowing IncaseYouMissedit to remain agile, independent, and future-ready.
                 </p>
               </div>
             </div>
@@ -171,7 +171,7 @@ export default function TokenPage() {
               <div>
                 <h3 className="text-xl font-semibold text-zinc-900 mb-2">Domain-Backed Asset</h3>
                 <p className="text-zinc-600 leading-7">
-                  The token is linked directly to the value of the InCaseYouMissedIt domain, creating a unique synergy where both the platform and token strengthen one another over time.
+                  The token is linked directly to the value of the IncaseYouMissedit domain, creating a unique synergy where both the platform and token strengthen one another over time.
                 </p>
               </div>
               
@@ -307,7 +307,7 @@ export default function TokenPage() {
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-zinc-900 mb-4">Utility</h3>
               <p className="text-zinc-600 leading-7 mb-4">
-                The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth.
+                The IncaseYouMissedit Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth.
               </p>
               <div className="space-y-3">
                 <div className="group relative overflow-hidden rounded-lg border border-zinc-200 bg-white/50 p-4 backdrop-blur-sm transition-all duration-300 hover:border-zinc-300 hover:shadow-md">
@@ -365,7 +365,7 @@ export default function TokenPage() {
               Vision & Future
             </h2>
             <p className="text-zinc-600 leading-8">
-              The long-term vision for the InCaseYouMissedIt Token is to become the central economic layer of a thriving, community-driven lifestyle ecosystem.
+              The long-term vision for the IncaseYouMissedit Token is to become the central economic layer of a thriving, community-driven lifestyle ecosystem.
             </p>
             
             <div className="mt-6">
@@ -380,7 +380,7 @@ export default function TokenPage() {
             </div>
             
             <p className="text-zinc-600 leading-8 mt-6">
-              As InCaseYouMissedIt continues to grow — from lifestyle media brand to community-driven digital platform — the token will evolve alongside it. Expect expanded utility, deeper integrations, and a long-term roadmap centered around transparency, sustainability, and shared value creation.
+              As IncaseYouMissedit continues to grow — from lifestyle media brand to community-driven digital platform — the token will evolve alongside it. Expect expanded utility, deeper integrations, and a long-term roadmap centered around transparency, sustainability, and shared value creation.
             </p>
           </section>
         </div>
