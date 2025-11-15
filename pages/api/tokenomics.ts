@@ -83,9 +83,9 @@ const getTokenomicsData = async () => {
       volume24h: formatNumber(marketData.volume24h),
       priceChange24h: marketData.priceChange24h,
       distribution: {
-        team: 20,
-        community: 50,
-        reserves: 30,
+        team: 7.5,
+        "community incentives": 10,
+        "papo wealth capital reserves": 15,
       },
       utility: "The IncaseYouMissedit token provides governance rights, staking rewards, and exclusive access to platform features. Holders can participate in decision-making and earn rewards through various mechanisms.",
       useCases: [
@@ -107,9 +107,9 @@ const getTokenomicsData = async () => {
       volume24h: "$0.00",
       priceChange24h: 0,
       distribution: {
-        team: 20,
-        community: 50,
-        reserves: 30,
+        team: 7.5,
+        "community incentives": 10,
+        "papo wealth capital reserves": 15,
       },
       utility: "The IncaseYouMissedit token provides governance rights, staking rewards, and exclusive access to platform features. Holders can participate in decision-making and earn rewards through various mechanisms.",
       useCases: [
