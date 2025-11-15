@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import FlickeringEmojis from "./components/flickering-emojis";
 
 export const metadata: Metadata = {
@@ -63,15 +64,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <Analytics />
-      </head>
       <body
         className={`bg-white ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
         <FlickeringEmojis className="-z-10" quantity={40} />
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
