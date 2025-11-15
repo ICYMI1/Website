@@ -79,7 +79,7 @@ const getTokenomicsData = async () => {
     return {
       tokenPrice: formatPrice(marketData.tokenPrice),
       marketCap: formatNumber(marketData.marketCap),
-      maxSupply: "1,000,000,000", // Keep static or fetch from token contract
+      maxSupply: "1,000,000", // Keep static or fetch from token contract
       volume24h: formatNumber(marketData.volume24h),
       priceChange24h: marketData.priceChange24h,
       distribution: {
@@ -87,13 +87,11 @@ const getTokenomicsData = async () => {
         "community incentives": 10,
         "papo wealth capital reserves": 15,
       },
-      utility: "The IncaseYouMissedit token provides governance rights, staking rewards, and exclusive access to platform features. Holders can participate in decision-making and earn rewards through various mechanisms.",
+      utility: "The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
       useCases: [
-        "Governance voting",
-        "Staking rewards",
-        "Platform access",
-        "Premium features",
-        "Community rewards",
+        "Governance Voting - Community members can vote on future platform updates, token features, and development priorities",
+        "Staking Rewards - Users earn passive rewards for supporting the ecosystem through staking mechanisms",
+        "Community Rewards - Engagement-based bonuses, loyalty rewards, and targeted airdrops strengthen the relationship between the platform and its audience",
       ],
       lastUpdated: new Date().toISOString(),
     };
@@ -103,7 +101,7 @@ const getTokenomicsData = async () => {
     return {
       tokenPrice: "$0.00",
       marketCap: "$0.00",
-      maxSupply: "1,000,000,000",
+      maxSupply: "1,000,000",
       volume24h: "$0.00",
       priceChange24h: 0,
       distribution: {
@@ -111,13 +109,11 @@ const getTokenomicsData = async () => {
         "community incentives": 10,
         "papo wealth capital reserves": 15,
       },
-      utility: "The IncaseYouMissedit token provides governance rights, staking rewards, and exclusive access to platform features. Holders can participate in decision-making and earn rewards through various mechanisms.",
+      utility: "The InCaseYouMissedIt Token provides meaningful utility within the ecosystem, allowing holders to engage, participate, and benefit from the platform's growth. Token holders influence platform decisions, upcoming features, and key ecosystem developments. Holders can stake their tokens to earn rewards, promoting long-term commitment and ecosystem stability. Early access to features, premium content, special events, and community perks are available to engaged token holders.",
       useCases: [
-        "Governance voting",
-        "Staking rewards",
-        "Platform access",
-        "Premium features",
-        "Community rewards",
+        "Governance Voting - Community members can vote on future platform updates, token features, and development priorities",
+        "Staking Rewards - Users earn passive rewards for supporting the ecosystem through staking mechanisms",
+        "Community Rewards - Engagement-based bonuses, loyalty rewards, and targeted airdrops strengthen the relationship between the platform and its audience",
       ],
       lastUpdated: new Date().toISOString(),
     };

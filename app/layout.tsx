@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import FlickeringEmojis from "./components/flickering-emojis";
+import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -70,6 +71,7 @@ export default function RootLayout({
       >
         <FlickeringEmojis className="-z-10" quantity={40} />
         {children}
+        <Footer />
         <Analytics />
         <SpeedInsights />
       </body>
